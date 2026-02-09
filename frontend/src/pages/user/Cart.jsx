@@ -53,7 +53,7 @@ const handlePlaceOrder = async () => {
     const res = await response.json()   // ✅ NOW res EXISTS
 
     const options = {
-      key: "rzp_test_S8oxyx5HO6AK9e",
+      key: "",
       amount: res.amount,
       currency: "INR",
       order_id: res.orderId,
